@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--分割线dashedline-->
+    <declare-styleable name="dashedline">
+        <attr name="dashedLineColor" format="color" />
+        <attr name="dashedBgColor" format="color" />
+        <attr name="dashWidth" format="dimension" />
+    </declare-styleable>
+</resources>
