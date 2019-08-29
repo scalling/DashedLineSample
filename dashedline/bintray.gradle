@@ -6,7 +6,7 @@ publish {
     userOrg = 'zmcat'
     groupId = 'com.zm.common'
     artifactId = 'dashedline'
-    publishVersion = "1.0.0"//4.1.8
+    publishVersion = "1.0.2"//4.1.8
     desc = 'dashedline'
     website = siteUrl
 }
