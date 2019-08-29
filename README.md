@@ -1,11 +1,6 @@
 # DashedLineSample
 虚线
 
-## 使用
-```
-  implementation 'com.zm.common:dashedline:1.0.0'
-  
-```
 
 ## 示例[activity_main.xml](https://github.com/scalling/DashedLineSample/blob/master/app/src/main/res/layout/activity_main.xml)
 ```
