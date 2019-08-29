@@ -12,6 +12,7 @@
         <com.zm.common.view.DashedLine
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+                
         <com.zm.common.view.DashedLine
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -20,4 +21,4 @@
                 app:dashedBgColor="@android:color/darker_gray"//虚线背景颜色
                 android:layout_margin="30dp"/>//虚线粗细
 ```
-![1.jpg](https://github.com/scalling/DashedLineSample/screenshot/1.jpg)
+![1.jpg](https://github.com/scalling/DashedLineSample/blob/master/screenshot/1.jpg)
