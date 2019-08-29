@@ -8,11 +8,11 @@
 ``
 
 ## 示例[activity_main.xml](https://github.com/scalling/DashedLineSample/blob/master/app/src/main/res/layout/activity_main.xml)
-``
+``xml
         <com.zm.common.view.DashedLine
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
-         <com.zm.common.view.DashedLine
+        <com.zm.common.view.DashedLine
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 app:dashWidth="0.1dp"
