@@ -4,10 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
     <com.zm.common.view.DashedLine
         android:layout_width="match_parent"
         android:layout_margin="30dp"
         android:layout_height="1dp" />
-
+    <com.zm.common.view.DashedLine
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_height="1dp"
+        app:dashedLineColor="@android:color/holo_orange_dark"/>
+    <com.zm.common.view.DashedLine
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_height="1dp"
+        app:dashedLineColor="@android:color/holo_green_dark"
+        app:dashWidth="0.1dp"/>
+    <com.zm.common.view.DashedLine
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_height="1dp"
+        app:dashWidth="1.0dp"
+        app:dashedLineColor="@android:color/holo_blue_bright"
+        app:dashedBgColor="@android:color/darker_gray"/>
 </LinearLayout>

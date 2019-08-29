@@ -28,7 +28,7 @@ public class DashedLine extends View {
         super(paramContext, paramAttributeSet);
         TypedArray a = paramContext.obtainStyledAttributes(paramAttributeSet, R.styleable.dashedline);
         int lineColor = a.getColor(R.styleable.dashedline_dashedLineColor, 0XFF000000);
-        int dashWidth = a.getColor(R.styleable.dashedline_dashWidth, dip2px(getContext(), 2.0F));
+        int dashWidth = (int)a.getDimension(R.styleable.dashedline_dashWidth, dip2px(getContext(), 2.0F));
         bgColor = a.getColor(R.styleable.dashedline_dashedBgColor, 0XFFFFFFFF);
         a.recycle();
         this.paint = new Paint();
