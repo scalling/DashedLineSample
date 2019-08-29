@@ -21,4 +21,4 @@
                 app:dashedBgColor="@android:color/darker_gray"//虚线背景颜色
                 android:layout_margin="30dp"/>//虚线粗细
 ```
-<img src="https://github.com/scalling/DashedLineSample/blob/master/screenshot/1.jpg" width = "500"/>
+![1.jpg](https://github.com/scalling/DashedLineSample/blob/master/screenshot/1.jpg)
